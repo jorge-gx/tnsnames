@@ -1,0 +1,2 @@
+# tnsnames
+tnsname.ora templates
