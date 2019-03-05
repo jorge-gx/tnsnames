@@ -1,0 +1,14 @@
+########################################################################
+# tnsnames.ora
+# oracle configuration file template
+######################################################################## 
+
+<addressname> =
+ (DESCRIPTION =
+   (ADDRESS_LIST =
+     (ADDRESS = (PROTOCOL = TCP)(Host = <hostname>)(Port = <port>))
+   )
+ (CONNECT_DATA =
+   (SERVICE_NAME = <service_name>)
+ )
+)
